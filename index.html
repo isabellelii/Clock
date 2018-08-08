@@ -18,7 +18,7 @@
 
   <style>
     html {
-      background:#018DED url(http://unsplash.it/1500/1000?image=881&blur=50);
+      background:#018DED url(https://images.unsplash.com/photo-1512856246663-647a81ef198e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=6e1e579096f5b60df638cbc1a75af7d5&auto=format&fit=crop&w=400&q=60);
       background-size:cover;
       font-family:'helvetica neue';
       text-align: center;
@@ -35,16 +35,16 @@
     }
 
     .clock {
-      width: 30rem;
-      height: 30rem;
-      border:20px solid white;
+      width: 50rem;
+      height: 50rem;
+      border:15px solid black;
       border-radius:50%;
       margin:50px auto;
       position: relative;
       padding:2rem;
       box-shadow:
-        0 0 0 4px rgba(0,0,0,0.1),
-        inset 0 0 0 3px #EFEFEF,
+        0 0 0 4px rgba(0,0,0,0.6),
+        inset 0 0 0 3px white,
         inset 0 0 10px black,
         0 0 10px rgba(0,0,0,0.2);
     }
@@ -53,12 +53,12 @@
       position: relative;
       width: 100%;
       height: 100%;
-      transform: translateY(-3px); /* account for the height of the clock hands */
+      transform: translateY(-3px);
     }
 
     .hand {
       width:50%;
-      height:6px;
+      height:10px;
       background:black;
       position: absolute;
       top:50%;
